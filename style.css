@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;  
+    font-family: 'Kanit', sans-serif;;
+}
+.container{
+    max-width:1140px;
+    display: flex;
+    margin: auto;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: #E55473;
+    border: 0;
+    color:#fff;
+    padding:12px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/* Header section design start from here */
+header{
+    background-color: #FCEEF1;
+}
+.hero-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.hero-content-box{
+    width:50%;
+}
+.hero-content-box h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    color:#272727;
+}
+.hero-content-box p{
+    font-weight: 300;
+    margin:15px 0px;
+    width:80%;
+}
+.hero-image-box{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.hero-image-box img{
+    width:70%;
+}
+/* featured section is start from here */
+.featured-box{
+    margin-top:80px;
+}
+.featured-header-part{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.featured-header-part p{
+    padding:0px 300px;
+    margin-top:10px;
+    font-weight: 300;
+}
+.featured-image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+}
+.featured-image-box > .wrapper{
+    width: 33.33;
+}
+.featured-image-box > .wrapper p{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.featured-image-box  .mini-box{
+    width:100%;
+    text-align: center;
+    background-color: #F2DEE7;
+    border-radius: 50% 50% 0% 0%;
+    padding-top:50px;
+}
+.featured-image-box  .mini-box-2{
+    background-color: #D9EFF1;
+}
+.featured-image-box  .mini-box-3{
+    background-color:#E3EBDB ;
+}
+.featured-image-box  .mini-box img{
+    width:65%;
+}
+/* Small box style start from here */
+.small-block{
+    margin-top:80px;
+}
+.small-block .container{
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F4F4F4;
+    padding:70px 0px;
+    border-radius: 10px;
+}
+.small-block .icon-box{
+    text-align: center;
+}
+.small-block .icon-box img{
+    width: 30%;
+    margin-bottom: 10px;
+}
+/* Hot deal style start from here */
+#hot-deal{
+    margin-top:80px;
+}
+#hot-deal  .hero-image-box .hot-deal-image{
+    width:45%;
+}
+.hot-deal-content-box{
+    text-align: center;
+}
+.hot-deal-content-box h2{
+    font-size: 40px;
+}
+.hot-deal-content-box p{
+    width: 100%;
+}
+.hot-deal-content-box span{
+    color:#E55473;
+}
+/* Social medi style start from here */
+#social-media{
+    margin-top: 80px;
+}
+.social-media-image-box{
+    width: 25%;
+    margin:10px;
+}
+.social-media-image-box img{
+    width: 100%;
+}
+/* contact us start from here */
+#contact-us{
+    margin-top: 80px;
+}
+#contact-us .contact-container{
+    background-image: url(images/Rectangle\ 9.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+    border-radius: 10px;    
+    display: block  ;
+
+}
+.social-media-content{
+    width:100%;
+    text-align: center;
+}
+.social-media-content h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.social-media-content p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.social-media-content form{
+    width:60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.social-media-content form input[type='text']{
+    padding:13px;
+    width:70%;
+    border-radius: 5px;
+    border:0;
+    font-size: 14px;
+    color:#272727;
+}
+.social-media-content form button{
+    width: 22%;
+}
+/* footer style start from here */
+footer{
+    background-color: #272727;
+    color:#fff;
+    text-align: center;
+    padding:60px 0px;
+    margin-top:80px;
+}
+footer h2{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 300;
+}
+footer span{
+    color: #E55473;
+}
+footer .copy-right-text{
+    margin-top:10px;
+    font-weight: 200;
+}
+/* Bonus style from here */
+.bonus-section{
+    margin-top:80px;
+}
+.bonus-section h2{
+    font-size: 30px;
+    line-height: 30px;
+}
+.bonus-section p{
+    width: 90%;
+}
+.mini-image-box-container{
+    display: flex;
+    justify-content: space-around;
+}
+.mini-image-box-container .mini-box{
+    width: 30%;
+    text-align: center;
+}
+.mini-image-box-container .mini-box sup{
+    color:#E55473
+}
